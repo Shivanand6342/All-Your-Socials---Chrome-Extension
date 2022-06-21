@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Your Socials</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        html, body{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin: 0;
+            min-height: 180px;
+            padding: 0;
+            width: 384px;
+        }
+
+        h1{
+            font-family: 'Menlo', monospace;
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0;
+            color: #2f5876;
+        }
+
+        a:link, a:visited{
+            color: #000;
+            outline: 0;
+            text-decoration: none;
+        }
+
+        img{
+            width: 30px;
+        }
+
+        .modal-header{
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+        }
+
+        .modal-content{
+            padding: 0 22px;
+        }
+
+        .modal-icons{
+            border-top: 0.5px solid #dadada;
+            height: 50px;
+            width: 100%;
+        }
+
+        .logo{
+            padding: 16px;
+        }
+
+        .logo-icon{
+            vertical-align: text-bottom;
+            margin-right: 12px;
+        }
+
+        .version{
+            color: #444;
+            font-size: 18px;
+        }
+
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 22px;
+        }
+
+        .flex{
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 120px;
+        }
+
+        .flex:hover{
+            opacity: 0.4;
+        }
+
+        .flex .bx{
+            font-size: 40px;
+            color: #2f5876;
+        }
+    </style>
+</head>
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            <img src="images/allyoursocial-logo.png" alt="" class="logo-icon"> All Your Socials
+            <span class="version">(1.0.0)</span>
+        </h1>
+    </div>
+    <div class="modal-content">
+        <p>Quick Access to All Your Social Medias from here</p>
+    </div>
+    <div class="modal-icons">
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://shivanand6342.github.io/Portfolio/" target="_blank">
+                    <i class='bx bx-globe'></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.linkedin.com/in/shivanand-vishwakarma-bb6580121/" target="_blank">
+                    <i class='bx bxl-linkedin' ></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://github.com/Shivanand6342/" target="_blank">
+                    <i class='bx bxl-github' ></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://codepen.io/Shivanand6342" target="_blank">
+                    <i class='bx bxl-codepen' ></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.instagram.com/shiva__0fficial/" target="_blank">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.facebook.com/profile.php?id=100006139695813" target="_blank">
+                    <i class='bx bxl-facebook' ></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://twitter.com/Shiva_0fficial" target="_blank">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
