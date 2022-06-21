@@ -1,5 +1,5 @@
 # All-Your-Socials---Chrome-Extention
-- All Your Socials is a Chrome Extention made with HTML, CSS, JavaScript(not currently in use, but for Future Updates), JSON file.
+- All Your Socials is a Chrome Extention made with HTML, CSS, JavaScript(not currently in use, but for Future updates), JSON file.
 - It will show and led up to your all social media platforms such as LinkedIn, Github, CodePen, Instagram, etc.
 - This is the first version of my Extention, hence all the data here are static.
 - For now, I have displayed these social medias,
